@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html, body
+{
+    height: 100%;
+    width:100%;
+}
+
+
+#mainImage{
+	width:100%;
+	height: 100%;
+
+	background-image: url("../images/jacob01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 60%;
+
+	margin:0;
+
+	box-shadow: 0px 11px 39px 0px #333;
+}
+
+#mainImage p{
+	font-family: 'Anton', sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 14em;
+	text-shadow: 10px 1px 15px #000;
+}
+
+#mainImage .subText{
+	font-size: 7em;
+
+}
+
+#mainImage .wrapper{
+	line-height: 1;
+	margin-left: 3%;
+}
+
+#mainContent{
+	height:100%;
+
+	width:75%;
+	margin:0 auto;
+
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+#mainContent h1{
+	text-align: center;
+}
+
+#mainContentContainer img{
+	width:10%;
+}
+
+.card-group{
+	width:100%;
+	margin:0 auto;
+	box-shadow: 5px 10px 30px #333;
+}
+
+
+
+
+#mainImage .lowerContent{
+	position: absolute;
+	bottom:1%;
+	width:100%;
+	text-align: center;
+}
+
+#mainImage .lowerContent p{
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 3px;
+}
+
+
+
+#showcase{
+	height: 100%;
+	width:100%;
+	margin:0 auto;
+
+	/*Gradient*/
+	background: #59aec3; /* Old browsers */
+	background: -moz-linear-gradient(left, #59aec3 50%, #a9c9c2 50%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #59aec3 50%,#a9c9c2 50%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #59aec3 50%,#a9c9c2 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59aec3', endColorstr='#a9c9c2',GradientType=1 ); /* IE6-9 */
+}
+
+#showcase > .row{
+	width:80%;
+	height:80%;
+	margin-left: 0;
+	margin-right: 0;
+	margin:0 auto;
+}
+
+#showcase .card{
+	height:100%;
+}
+
+#showcase .cardIcon{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+#showcase .cardIcon img{
+	width:60px;
+	height:60;
+}
+
+#showcase h5{
+	padding-top:5px;
+
+	font-size: 3rem;
+	font-family: 'Anton', sans-serif;
+	color:#59aec3; 
+}
+
+#showcase ul, #showcase h5{
+	margin:25px auto;
+	text-align: center;
+}
+
+#showcase h6{
+	text-align: center;
+	font-size:25px;
+	color:#59aec3;
+}
+
+#showcase .card-text{
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#showcase ul li{
+	list-style-type: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+
+.card-body{
+	height:100%;
+}
+
+.cardTopSection{
+	height:40%;
+}
+
+.cardBottomSection{
+	height: 50%;
+}
+
+hr{
+	width:50%;
+	margin:0 auto;
+	box-shadow: 0px 1px 25px #333;
+}
+
+/*THIS IS THE STYLE CSS FOR PROJECTS*/
+div .projects{
+	height: 100%;
+	width: 100%;
+}
