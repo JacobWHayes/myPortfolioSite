@@ -170,8 +170,59 @@ hr{
 	box-shadow: 0px 1px 25px #333;
 }
 
+/*PROJECT HERO*/
+.projectHero{
+	width:100%;
+	height: 100%;
+
+	background-image: url("../images/jacob10.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 60%;
+
+	margin:0;
+
+	box-shadow: 0px 11px 39px 0px #333;
+}
+
+.projectHero .projectHeaderWrapper{		/*This is a cool way of vertically centering something on a page!*/
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	width:50%;
+}
+
+.projectHero p{
+	font-family: 'Anton', sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 14em;
+	height:100%;
+	text-shadow: 10px 1px 15px #000;
+}
+
 /*THIS IS THE STYLE CSS FOR PROJECTS*/
-div .projects{
+.projects{
 	height: 100%;
 	width: 100%;
+
+	/*Gradient*/
+	background: #59aec3; /* Old browsers */
+	background-image: linear-gradient(to right top, #59aec3, #6db5c0, #82bcbf, #96c3bf, #a9c9c2);
 }
+
+.projects .projectsContainer{
+	height:100%;
+	width:80%;
+	margin:0 auto;
+}
+
+.projects .projectsContainer img{
+	width:92%;
+	margin: 0 auto;
+	display: block;
+	margin-top:20px;
+	box-shadow: 5px 10px 30px #333;
+	border:1px solid #333;
+}
+
