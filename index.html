@@ -170,6 +170,53 @@
 			</div>
 
 			<div class="footerBottomSection">
+
+				<!-- Button to launch contact modal -->
+				<div class="buttonContainer">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactPromptModal" id="promptButton">Say Hi</button>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="contactPromptModal" tabindex="-1" role="dialog" aria-labelledby="contactPromptModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="contactPromptModalLabel">Let's Begin!</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				      	<!--THIS IS THE FORM FOR THE CONTACT MODAL -->  
+						<form>
+							<div class="form-group row">
+								<div class="col-md-12">
+									<input type="input" class="form-control" id="name" placeholder="Name"></input>
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<div class="col-md-12">
+									<input type="email" class="form-control" id="email" placeholder="Email"></input>
+									<small id="emailHelp" class="form-text text-muted">Don't worry, this stays between us. :D</small>
+								</div>
+							</div>
+
+							<div class="form-group row">
+								<div class="col-md-12">
+									<textarea class="form-control" id="textArea" rows="7" placeholder="Your Message ;)"></textarea>
+								</div>
+							</div>
+						</form>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Soon, Not Yet!</button>
+				        <button type="button" class="btn btn-primary">Send Message</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
 				<div class="socialMediaIcons">
 					<ul class="row">
 						<li class="col-lg-2"><img src="images/icons/socialMedia/facebook-logo.png" alt="Facebook Logo"></li>
@@ -181,7 +228,7 @@
 					</ul>
 				</div>
 				<div class="copyrightInfo">
-					<p>&copy; Jacob Hayes</p>
+					<p>&copy; Jacob Hayes 2018</p>
 					<p>Written by me, myself and I.</p>
 				</div>
 			</div>

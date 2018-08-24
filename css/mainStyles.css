@@ -231,7 +231,7 @@ hr{
 /*FOOTER STYLES*/
 
 .footer{
-	height:76%;
+	height:80%;
 	width:100%;
 
 	background-color: #333;
@@ -251,19 +251,39 @@ hr{
 	margin: 2% 0 0 0;
 }
 
-.footerBottomSection{
+.footerBottomSection .buttonContainer{
+	width:200px;
+	margin:0 auto;
+	text-align: center;
+}
 
+.footerBottomSection #promptButton{
+	margin-top: 30%;
+	width:100%;
+	background-color: #59aec3;
+}
+
+.footerBottomSection .modal{
+	font-family: 'Roboto', sans-serif;
+}
+
+.footerBottomSection form input{
+	box-shadow: 3px 4px 7px #3333336b;
+}
+
+.footerBottomSection form #textArea{
+	box-shadow: 3px 4px 7px #3333336b;
 }
 
 .footerBottomSection .socialMediaIcons .row{
 	width:55%;
 	text-align: center;
-	margin:7% auto 0 auto;
+	margin:4% auto 0 auto;
 	list-style-type: none;
 }
 
 .footerBottomSection .copyrightInfo{
-	margin-top: 7%;
+	margin-top: 6%;
 }
 
 .footerBottomSection .copyrightInfo p{
