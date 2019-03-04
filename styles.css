@@ -1,0 +1,188 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	color:#4a91f2;
+	font-family: 'Oswald', sans-serif;
+}
+
+p{
+	font-family: 'Thasadith', sans-serif;
+}
+
+.navbar{
+	width:95%;
+	margin:5px auto 3% auto;
+}
+
+button{
+  background:#4a91f2;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius: 50px;
+}
+button:hover{
+  background:#fff;
+  color:#4a91f2;
+  border-radius: 50px;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #4a91f2;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+#wrapper{
+	width:100%;
+	text-align: center;
+}
+
+#wrapper h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 4.5rem;
+	color:#4a91f2;
+}
+
+#aboutMe{
+	height:600px;
+	width:100%;
+	background-color: #4a91f2;
+	padding: 10% 0 0 0;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+
+
+#aboutMe h2{
+	color:white;
+	font-size: 6rem;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#aboutMeText{
+	width: 50%;
+    margin: 1% auto 0 auto;
+	text-align: center;
+}
+
+#aboutMeText p{
+	font-size: 1.5em;
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+#showcase{
+	height: 100%;
+	width:100%;
+	margin:0 auto;
+	position: absolute;
+    top: 145%;
+}
+
+#showcase > .row{
+	width:80%;
+	height:80%;
+	margin-left: 0;
+	margin-right: 0;
+	margin:0 auto;
+}
+
+#showcase .card{
+	height:100%;
+}
+
+#showcase .cardIcon{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+#showcase .cardIcon img{
+	width:60px;
+	height:60;
+}
+
+#showcase h5{
+	padding-top:5px;
+
+	font-size: 3rem;
+	font-family: 'Anton', sans-serif;
+	color:#4a91f2; 
+}
+
+#showcase ul, #showcase h5{
+	margin:25px auto;
+	text-align: center;
+}
+
+#showcase h6{
+	text-align: center;
+	font-size:25px;
+	color:#4a91f2;
+}
+
+#showcase .card-text{
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#showcase ul li{
+	list-style-type: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+
+    background-color: #4a91f2;
+    color:#fff;
+}
+
+
+.card-body{
+	height:100%;
+}
+
+.cardTopSection{
+	height:40%;
+}
+
+.cardBottomSection{
+	height: 50%;
+}
+
+hr{
+	width:50%;
+	margin:0 auto;
+}
+
+.cardBottomSection ul li{
+	cursor:default;
+}
